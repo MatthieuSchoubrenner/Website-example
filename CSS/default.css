@@ -1,0 +1,32 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    text-align: center;
+}
+
+#logo {
+
+}
