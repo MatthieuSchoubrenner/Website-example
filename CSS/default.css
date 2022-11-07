@@ -88,6 +88,7 @@ h2 {
 
 section {
     text-align: center;
+    margin-top: 50px;
 }
 
 h3:before {
@@ -151,3 +152,32 @@ footer {
     margin-top: 30px;
     width: 50px;
 }
+
+#picture-project img {
+    width: 80%;
+}
+
+/******MEDIA******/
+
+@media all and (max-width: 1000px){
+    .projet {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .projet img {
+        width: 100%;
+        height: auto;
+        min-width: auto;
+    }
+
+    .projet .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    header h2 {
+        width: 90%;
+    }
+}
+
