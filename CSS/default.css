@@ -29,6 +29,94 @@ h2 {
     font-size: 1.5em;
 }
 
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3:before {
+    content: "« ";
+    color: gray;
+}
+
+h3:after {
+    content: " »";
+    color: gray;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    padding: 15px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+footer {
+    background-color: #1D1D1D;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/****************
+ ******ID'S******
+ ****************/
+#logo {
+    margin-top: 30px;
+    width: 50px;
+}
+
+#picture-project img {
+    width: 80%;
+}
+
+#contact {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+/********************
+ ******END ID'S******
+ ********************/
+
+
+
+/*******************
+ ******CLASSES******
+ *******************/
 .separator {
     width: 40px;
     height: 1px;
@@ -40,12 +128,6 @@ h2 {
 .container {
     width: 80%;
     margin: auto;
-}
-
-#projets{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between ;
 }
 
 .projet {
@@ -85,80 +167,15 @@ h2 {
     text-transform: uppercase;
     display: block;
 }
+/***********************
+ ******END CLASSES******
+ ***********************/
 
-section {
-    text-align: center;
-    margin-top: 50px;
-}
 
-h3:before {
-    content: "« ";
-    color: gray;
-}
 
-h3:after {
-    content: " »";
-    color: gray;
-}
-
-h3 {
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
-
-nav {
-    text-align: center;
-    background-color: white;
-    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
-    font-size: 1.1em;
-    padding: 15px;
-
-}
-
-nav a:hover {
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-ul {
-    padding: 0;
-    display: inline;
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    margin: 10px;
-}
-
-#contact {
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 30px;
-    margin-bottom: 50px;
-}
-
-footer {
-    background-color: #1D1D1D;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-#logo {
-    margin-top: 30px;
-    width: 50px;
-}
-
-#picture-project img {
-    width: 80%;
-}
-
-/******MEDIA******/
-
+/*************************
+ ******MEDIA QUERIES******
+ *************************/
 @media all and (max-width: 1000px){
     .projet {
         width: 100%;
@@ -180,4 +197,7 @@ footer {
         width: 90%;
     }
 }
+/*****************************
+ ******END MEDIA QUERIES******
+ *****************************/
 
